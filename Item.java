@@ -2,9 +2,9 @@ public class Item{
 
     private String name;
     private String id;
-    private int price;
+    private double price;
 
-    public Item(String name,String id,int price){
+    public Item(String name,String id,double price){
         this.name = name;
         this.id = id;
         this.price = price;
@@ -17,8 +17,12 @@ public class Item{
     public String skuName(){
         return id;
     }
+
+    public double getCents() {
+        return price;
+    }
     
     public double centsToDollar(){
-        return price/100.0;
+        return (price)/100.0;
     }
 }
