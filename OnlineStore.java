@@ -14,7 +14,7 @@ public class OnlineStore{
         items[2] = new Item("Banana", "830", 657);
         items[3] = new Item("Chips", "907", 540);
         items[4] = new Item("Milk", "432", 330);
-        items[5] = new Item("Soda", "210", 540);
+        items[5] = new Item("Soda", "210", 54);
         items[6] = new Item("Lettuce", "123", 4.32);
         items[7] = new Item("Candy", "435", 675);
         items[8] = new Item("Turkey", "980", 975);
